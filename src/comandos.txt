@@ -1,0 +1,6 @@
+docker run -d --name mongodb -p 27017:27017 mongo       # inicia o mongo
+docker ps                                               # lista os
+npm install                                             # instala as bibliotecas marcadas em package.json
+npm install -g yarn                                     # instala o yarn
+yarn dev                                                # executa o servidor
+yarn add -D ts-node
